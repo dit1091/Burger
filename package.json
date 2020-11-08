@@ -1,6 +1,9 @@
 {
   "name": "burger",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
   "description": "burger logger with MySQL, Node, Express, Handlebars and a homemade ORM",
   "main": "burger.js",
   "scripts": {
