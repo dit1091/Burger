@@ -1,11 +1,11 @@
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
-  host: "localhost",
-  port: 3306,
-  user: "root",
-  password: "Ruby2020$",
-  database: "burgers_db"
+  host     : config.host,
+  user     : config.user,
+  password : config.pass,
+  database : config.db,
+  socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
 });
 
 
