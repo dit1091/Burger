@@ -20,7 +20,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
-    "mysql": "^5.7.30",
+    "mysql": "^2.18.1",
     "ts-node": "^9.0.0",
     "tsconfig-paths": "^3.9.0"
   }
