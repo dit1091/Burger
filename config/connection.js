@@ -12,7 +12,7 @@ else {
     port     : 3306,
     // user: process.env.USER,
     user: "root",
-    password: process.env.PASSWORD,
+    password: "Ruby2020$",
     database: "burgers_db",
     socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
   });
