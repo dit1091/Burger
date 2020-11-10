@@ -1,4 +1,3 @@
-require("dotenv").config();
 var mysql = require("mysql");
 let connection;
 
@@ -14,7 +13,6 @@ else {
     user: "root",
     password: "Ruby2020$",
     database: "burgers_db",
-    socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
   });
 };
 
@@ -28,5 +26,4 @@ connection.connect(function(err) {
   
 
 // Export connection for our ORM to use.
-module.exports = connection;
 module.exports = connection;
